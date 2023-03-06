@@ -1,0 +1,4566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1381</width>
+    <height>709</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1401</width>
+      <height>701</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>1231</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QWidget
+{
+	background-color:#19666f;
+	color: #000000;
+
+}</string>
+    </property>
+    <property name="currentIndex">
+     <number>4</number>
+    </property>
+    <widget class="QWidget" name="home_page">
+     <widget class="QFrame" name="frame">
+      <property name="geometry">
+       <rect>
+        <x>-10</x>
+        <y>0</y>
+        <width>1391</width>
+        <height>48</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="pushButton_4">
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color:#19666f ;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}</string>
+         </property>
+         <property name="text">
+          <string>Gestion Employe</string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/users.svg</normaloff>:/ico/icons/users.svg</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color:#19666f;
+	color: #fff;
+    font:&quot;Arial&quot;;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}</string>
+         </property>
+         <property name="text">
+          <string>Gestion donataire </string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/truck.svg</normaloff>:/ico/icons/truck.svg</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color: #19666f;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}</string>
+         </property>
+         <property name="text">
+          <string>Home</string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/home.svg</normaloff>:/ico/icons/home.svg</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_6">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color: #19666f;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}</string>
+         </property>
+         <property name="text">
+          <string>Gestion benevole </string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/heart.svg</normaloff>:/ico/icons/heart.svg</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color: #19666f;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}</string>
+         </property>
+         <property name="text">
+          <string>Gestion donateur</string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/activity.svg</normaloff>:/ico/icons/activity.svg</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_5">
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color: #19666f;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}</string>
+         </property>
+         <property name="text">
+          <string>Gestion stock</string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/archive.svg</normaloff>:/ico/icons/archive.svg</iconset>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>640</y>
+        <width>31</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+	background-color: #00555F;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/ico/icons/menu.svg</normaloff>:/ico/icons/menu.svg</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_10">
+      <property name="geometry">
+       <rect>
+        <x>1320</x>
+        <y>640</y>
+        <width>31</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+	background-color: #00555F;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/ico/icons/mail.svg</normaloff>:/ico/icons/mail.svg</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_11">
+      <property name="geometry">
+       <rect>
+        <x>1350</x>
+        <y>640</y>
+        <width>31</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+	background-color: #00555F;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/ico/icons/settings.svg</normaloff>:/ico/icons/settings.svg</iconset>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>600</y>
+        <width>61</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">size : 18px ;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../logo crew.png</pixmap>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_24">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>100</y>
+        <width>221</width>
+        <height>201</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #32767e;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+QPushButton:hover {
+ background-color:  #EF829B;
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Gestion Employé </string>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/ico/icons/users.svg</normaloff>:/ico/icons/users.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_25">
+      <property name="geometry">
+       <rect>
+        <x>560</x>
+        <y>100</y>
+        <width>221</width>
+        <height>201</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #32767e;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+QPushButton:hover {
+ background-color:  #EF829B;
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Gestion Donateur </string>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/ico/icons/users.svg</normaloff>:/ico/icons/users.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_26">
+      <property name="geometry">
+       <rect>
+        <x>930</x>
+        <y>100</y>
+        <width>221</width>
+        <height>201</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #32767e;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+QPushButton:hover {
+ background-color:  #EF829B;
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Gestion Donataire </string>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/ico/icons/users.svg</normaloff>:/ico/icons/users.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_30">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>370</y>
+        <width>221</width>
+        <height>201</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #32767e;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+QPushButton:hover {
+ background-color:  #EF829B;
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Gestion Stock</string>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/ico/icons/users.svg</normaloff>:/ico/icons/users.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_31">
+      <property name="geometry">
+       <rect>
+        <x>770</x>
+        <y>370</y>
+        <width>221</width>
+        <height>201</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+    background-color: #32767e;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+QPushButton:hover {
+ background-color:  #EF829B;
+
+}</string>
+      </property>
+      <property name="text">
+       <string>Gestion benevole</string>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/ico/icons/users.svg</normaloff>:/ico/icons/users.svg</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>50</width>
+        <height>50</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>1381</width>
+        <height>651</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="pixmap">
+       <pixmap>../backbach.gif</pixmap>
+      </property>
+     </widget>
+     <zorder>label_2</zorder>
+     <zorder>frame</zorder>
+     <zorder>pushButton_9</zorder>
+     <zorder>pushButton_10</zorder>
+     <zorder>pushButton_11</zorder>
+     <zorder>label</zorder>
+     <zorder>pushButton_24</zorder>
+     <zorder>pushButton_25</zorder>
+     <zorder>pushButton_26</zorder>
+     <zorder>pushButton_30</zorder>
+     <zorder>pushButton_31</zorder>
+    </widget>
+    <widget class="QWidget" name="page_2">
+     <widget class="QFrame" name="frame_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1401</width>
+        <height>48</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame {
+  
+   border: 3px solid white
+ ;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QPushButton" name="pushButton_15">
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color: #19666f ;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+         </property>
+         <property name="text">
+          <string>Gestion Employe</string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/users.svg</normaloff>:/ico/icons/users.svg</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_16">
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color: #19666f;
+	color: #fff;
+    font:&quot;Arial&quot;;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+         </property>
+         <property name="text">
+          <string>Gestion donataire </string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/truck.svg</normaloff>:/ico/icons/truck.svg</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_17">
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color: #19666f;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+         </property>
+         <property name="text">
+          <string>Home</string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/home.svg</normaloff>:/ico/icons/home.svg</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_18">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color: #19666f;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+         </property>
+         <property name="text">
+          <string>Gestion benevole </string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/heart.svg</normaloff>:/ico/icons/heart.svg</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_19">
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color: #19666f;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+         </property>
+         <property name="text">
+          <string>Gestion donateur</string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/activity.svg</normaloff>:/ico/icons/activity.svg</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_20">
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color: #19666f;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+         </property>
+         <property name="text">
+          <string>Gestion stock</string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/archive.svg</normaloff>:/ico/icons/archive.svg</iconset>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QFrame" name="frame_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>241</width>
+        <height>621</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame {
+   background-color:#003e46;
+   font-size: 14px;
+   padding: 20px;
+   border-radius: 1
+0px;
+ 
+}
+
+QFrame QListWidget {
+   background-color: transparent;
+   color: #333;
+   font-size: 14px;
+   padding: 20px;
+}
+
+QFrame QListWidget::item {
+   padding: 10px;
+   border-bottom: 1px solid #ddd;
+}
+
+QFrame QListWidget::item:selected {
+   background-color: #007aff;
+   color: #fff;
+}
+
+QFrame QListWidget::item:hover {
+   background-color: #ddd;
+}
+
+QFrame QLabel {
+   font-size: 18px;
+   font-weight: bold;
+   color: #333;
+   margin-bottom: 20px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QPushButton" name="pushButton_21">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>181</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color: #fff;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+       </property>
+       <property name="text">
+        <string>Ajouter donateur</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/add.png</normaloff>icons/add.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_23">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>120</y>
+         <width>181</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color: #fff;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Supprimer donateur</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/icons8-available-updates-40.png</normaloff>icons/icons8-available-updates-40.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_27">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>170</y>
+         <width>181</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color:#fff;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}
+
+QPushButton::pressed
+{
+	background-color: #FF0000;
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Update donateur</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/icons8-remove-64.png</normaloff>icons/icons8-remove-64.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_67">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>240</y>
+         <width>71</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color: #32767e;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+border : 3px solid white
+ ; 
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Downloads/sort.svg</normaloff>../Downloads/sort.svg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_68">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>240</y>
+         <width>71</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color: #32767e;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+border : 3px solid white; 
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Downloads/history.png</normaloff>../Downloads/history.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>500</width>
+         <height>500</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_69">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>330</y>
+         <width>71</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color: #32767e;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+border : 3px solid white ; 
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Downloads/location.png</normaloff>../Downloads/location.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>50</width>
+         <height>100</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_70">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>330</y>
+         <width>71</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color:#32767e;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+border : 3px solid white ; 
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Downloads/pdf.svg</normaloff>../Downloads/pdf.svg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="button_side_lire_3">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>70</y>
+         <width>181</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color: #fff;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Lire liste donateur</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/icons8-read-80.png</normaloff>icons/icons8-read-80.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pushButton_28">
+      <property name="geometry">
+       <rect>
+        <x>1370</x>
+        <y>640</y>
+        <width>31</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+	background-color: #00555F;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/ico/icons/settings.svg</normaloff>:/ico/icons/settings.svg</iconset>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_29">
+      <property name="geometry">
+       <rect>
+        <x>1340</x>
+        <y>640</y>
+        <width>31</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton
+{
+	background-color: #00555F;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="res.qrc">
+        <normaloff>:/ico/icons/user.svg</normaloff>:/ico/icons/user.svg</iconset>
+      </property>
+     </widget>
+     <widget class="QTableView" name="table_D">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>150</y>
+        <width>911</width>
+        <height>401</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTableView {
+  background-color: #003e46;
+  color: white;
+  border: 1px solid #19666f;
+  border-radius: 10px;
+}
+
+QTableView::item {
+  padding: 4px;
+  border: none;
+}
+
+QTableView::item:selected {
+  background-color: #19666f;
+  color: white;
+}
+
+QHeaderView::section {
+  background-color: #003e46;
+  color: white;
+  padding: 4px;
+  border: none;
+}</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_3">
+     <widget class="QFrame" name="upper_bar">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1401</width>
+        <height>48</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame {
+  
+   border: 3px solid white
+ ;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_5">
+       <item>
+        <widget class="QPushButton" name="button_g_emp">
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color: #19666f ;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+         </property>
+         <property name="text">
+          <string>Gestion Employe</string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/users.svg</normaloff>:/ico/icons/users.svg</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="button_g_donataire">
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color: #19666f;
+	color: #fff;
+    font:&quot;Arial&quot;;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+         </property>
+         <property name="text">
+          <string>Gestion donataire </string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/truck.svg</normaloff>:/ico/icons/truck.svg</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="button_home">
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color: #19666f;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+         </property>
+         <property name="text">
+          <string>Home</string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/home.svg</normaloff>:/ico/icons/home.svg</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="button_g_benevole">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color: #19666f;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+         </property>
+         <property name="text">
+          <string>Gestion benevole </string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/heart.svg</normaloff>:/ico/icons/heart.svg</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="button_g_donateur">
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color: #19666f;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+         </property>
+         <property name="text">
+          <string>Gestion donateur</string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/activity.svg</normaloff>:/ico/icons/activity.svg</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="button_g_stock">
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color: #19666f;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+         </property>
+         <property name="text">
+          <string>Gestion stock</string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/archive.svg</normaloff>:/ico/icons/archive.svg</iconset>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QFrame" name="side_bar">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>241</width>
+        <height>631</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame {
+   background-color:#003e46;
+   font-size: 14px;
+   padding: 20px;
+   border-radius: 1
+0px;
+ 
+}
+
+QFrame QListWidget {
+   background-color: transparent;
+   color: #333;
+   font-size: 14px;
+   padding: 20px;
+}
+
+QFrame QListWidget::item {
+   padding: 10px;
+   border-bottom: 1px solid #ddd;
+}
+
+QFrame QListWidget::item:selected {
+   background-color: #007aff;
+   color: #fff;
+}
+
+QFrame QListWidget::item:hover {
+   background-color: #ddd;
+}
+
+QFrame QLabel {
+   font-size: 18px;
+   font-weight: bold;
+   color: #333;
+   margin-bottom: 20px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QPushButton" name="button_side_ajouter">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>181</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color: #fff;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+       </property>
+       <property name="text">
+        <string>Ajouter donateur</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/add.png</normaloff>icons/add.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="button_side_lire">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>70</y>
+         <width>181</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color: #fff;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Lire liste donateur</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/icons8-read-80.png</normaloff>icons/icons8-read-80.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="button_side_supp">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>120</y>
+         <width>181</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color: #fff;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Supprimer donateur</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/icons8-available-updates-40.png</normaloff>icons/icons8-available-updates-40.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_76">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>170</y>
+         <width>181</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color:#fff;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}
+
+QPushButton::pressed
+{
+	background-color: #FF0000;
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Update donateur</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/icons8-remove-64.png</normaloff>icons/icons8-remove-64.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_77">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>240</y>
+         <width>71</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color: #32767e;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+border : 3px solid white
+ ; 
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Downloads/sort.svg</normaloff>../Downloads/sort.svg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_78">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>240</y>
+         <width>71</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color: #32767e;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+border : 3px solid white; 
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Downloads/history.png</normaloff>../Downloads/history.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>500</width>
+         <height>500</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_79">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>330</y>
+         <width>71</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color: #32767e;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+border : 3px solid white ; 
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Downloads/location.png</normaloff>../Downloads/location.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>50</width>
+         <height>100</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_80">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>330</y>
+         <width>71</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color:#32767e;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+border : 3px solid white ; 
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Downloads/pdf.svg</normaloff>../Downloads/pdf.svg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>100</y>
+        <width>751</width>
+        <height>511</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"> QWidget {
+    background-color: #003e46;
+    color: white;
+    font-family: Arial;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+QLineEdit, QTextEdit {
+    background-color: #19666f;
+    border-radius: 4px;
+    padding: 4px;
+    color: white;
+}
+
+QLineEdit:focus, QTextEdit:focus {
+    border: 2px solid #d35400;
+}
+
+QLabel {
+    color: white;
+}
+
+QPushButton {
+    background-color: #d35400;
+    color: white;
+    border-radius: 4px;
+    padding: 6px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #e67e22;
+}
+
+QComboBox {
+    background-color: #19666f;
+    border-radius: 4px;
+    padding: 4px;
+    color: white;
+}
+
+QComboBox::drop-down {
+    width: 20px;
+}
+
+QComboBox::down-arrow {
+    image: url(:/icons/dark/arrow_down.png);
+    width: 16px;
+    height: 16px;
+}
+
+QComboBox::down-arrow:on {
+    transform: rotate(180deg);
+}</string>
+      </property>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>350</x>
+         <y>120</y>
+         <width>121</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+  color: #fff;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Type donateur</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>350</x>
+         <y>220</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+  color: #fff;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Nombre de don</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le_nom">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>100</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le_prenom">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>170</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le_addresse">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>240</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le_numtel">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>310</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le_mail">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>380</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_13">
+       <property name="geometry">
+        <rect>
+         <x>350</x>
+         <y>310</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+  color: #fff;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Quantite </string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le_quantite">
+       <property name="geometry">
+        <rect>
+         <x>490</x>
+         <y>310</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le_nb_don">
+       <property name="geometry">
+        <rect>
+         <x>490</x>
+         <y>220</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="button_add">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>442</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color: #fff;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+       </property>
+       <property name="text">
+        <string>Ajouter</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le_id">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>30</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>111</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+  color: #fff;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Id donateur </string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>90</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+  color: #fff;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Nom</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_12">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>160</y>
+         <width>81</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+  color: #fff;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Prenom</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>230</y>
+         <width>91</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+  color: #fff;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Addresse</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_11">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>300</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+  color: #fff;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Num tel</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>370</y>
+         <width>81</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+  color: #fff;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Email</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le_type_d">
+       <property name="geometry">
+        <rect>
+         <x>490</x>
+         <y>120</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <zorder>label_6</zorder>
+      <zorder>label_5</zorder>
+      <zorder>le_nom</zorder>
+      <zorder>le_prenom</zorder>
+      <zorder>le_addresse</zorder>
+      <zorder>le_numtel</zorder>
+      <zorder>le_mail</zorder>
+      <zorder>label_13</zorder>
+      <zorder>le_quantite</zorder>
+      <zorder>le_nb_don</zorder>
+      <zorder>button_add</zorder>
+      <zorder>label_3</zorder>
+      <zorder>label_4</zorder>
+      <zorder>label_12</zorder>
+      <zorder>label_8</zorder>
+      <zorder>label_11</zorder>
+      <zorder>label_7</zorder>
+      <zorder>le_type_d</zorder>
+      <zorder>le_id</zorder>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page_4">
+     <widget class="QFrame" name="upper_bar_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1401</width>
+        <height>48</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame {
+  
+   border: 3px solid white
+ ;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_6">
+       <item>
+        <widget class="QPushButton" name="button_g_emp_2">
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color: #19666f ;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+         </property>
+         <property name="text">
+          <string>Gestion Employe</string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/users.svg</normaloff>:/ico/icons/users.svg</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="button_g_donataire_2">
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color: #19666f;
+	color: #fff;
+    font:&quot;Arial&quot;;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+         </property>
+         <property name="text">
+          <string>Gestion donataire </string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/truck.svg</normaloff>:/ico/icons/truck.svg</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="button_home_2">
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color: #19666f;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+         </property>
+         <property name="text">
+          <string>Home</string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/home.svg</normaloff>:/ico/icons/home.svg</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="button_g_benevole_2">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color: #19666f;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+         </property>
+         <property name="text">
+          <string>Gestion benevole </string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/heart.svg</normaloff>:/ico/icons/heart.svg</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="button_g_donateur_2">
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color: #19666f;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+         </property>
+         <property name="text">
+          <string>Gestion donateur</string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/activity.svg</normaloff>:/ico/icons/activity.svg</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="button_g_stock_2">
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color: #19666f;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+         </property>
+         <property name="text">
+          <string>Gestion stock</string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/archive.svg</normaloff>:/ico/icons/archive.svg</iconset>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QFrame" name="side_bar_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>241</width>
+        <height>621</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame {
+   background-color:#003e46;
+   font-size: 14px;
+   padding: 20px;
+   border-radius: 1
+0px;
+ 
+}
+
+QFrame QListWidget {
+   background-color: transparent;
+   color: #333;
+   font-size: 14px;
+   padding: 20px;
+}
+
+QFrame QListWidget::item {
+   padding: 10px;
+   border-bottom: 1px solid #ddd;
+}
+
+QFrame QListWidget::item:selected {
+   background-color: #007aff;
+   color: #fff;
+}
+
+QFrame QListWidget::item:hover {
+   background-color: #ddd;
+}
+
+QFrame QLabel {
+   font-size: 18px;
+   font-weight: bold;
+   color: #333;
+   margin-bottom: 20px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QPushButton" name="button_side_ajouter_2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>191</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color: #fff;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+       </property>
+       <property name="text">
+        <string>Ajouter donateur</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/add.png</normaloff>icons/add.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="button_side_lire_2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>70</y>
+         <width>191</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color: #fff;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Lire liste donateur</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/icons8-read-80.png</normaloff>icons/icons8-read-80.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="button_side_supp_2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>120</y>
+         <width>191</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color: #fff;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Supprimer donateur</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/icons8-available-updates-40.png</normaloff>icons/icons8-available-updates-40.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_81">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>170</y>
+         <width>191</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color:#fff;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}
+
+QPushButton::pressed
+{
+	background-color: #FF0000;
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Update donateur</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/icons8-remove-64.png</normaloff>icons/icons8-remove-64.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_82">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>240</y>
+         <width>71</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color: #32767e;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+border : 3px solid white
+ ; 
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Downloads/sort.svg</normaloff>../Downloads/sort.svg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_83">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>240</y>
+         <width>71</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color: #32767e;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+border : 3px solid white; 
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Downloads/history.png</normaloff>../Downloads/history.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>500</width>
+         <height>500</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_84">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>330</y>
+         <width>71</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color: #32767e;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+border : 3px solid white ; 
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Downloads/location.png</normaloff>../Downloads/location.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>50</width>
+         <height>100</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_85">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>330</y>
+         <width>71</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color:#32767e;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+border : 3px solid white ; 
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Downloads/pdf.svg</normaloff>../Downloads/pdf.svg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QTableView" name="table_D_2">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>180</y>
+        <width>911</width>
+        <height>401</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTableView {
+  background-color: #003e46;
+  color: white;
+  border: 1px solid #19666f;
+  border-radius: 10px;
+}
+
+QTableView::item {
+  padding: 4px;
+  border: none;
+}
+
+QTableView::item:selected {
+  background-color: #19666f;
+  color: white;
+}
+
+QHeaderView::section {
+  background-color: #003e46;
+  color: white;
+  padding: 4px;
+  border: none;
+}</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="widget_3" native="true">
+      <property name="geometry">
+       <rect>
+        <x>630</x>
+        <y>70</y>
+        <width>481</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"> QWidget {
+    background-color: #003e46;
+    color: white;
+    font-family: Arial;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+QLineEdit, QTextEdit {
+    background-color: #19666f;
+    border-radius: 4px;
+    padding: 4px;
+    color: white;
+}
+
+QLineEdit:focus, QTextEdit:focus {
+    border: 2px solid #d35400;
+}
+
+QLabel {
+    color: white;
+}
+
+QPushButton {
+    background-color: #d35400;
+    color: white;
+    border-radius: 4px;
+    padding: 6px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #e67e22;
+}
+</string>
+      </property>
+      <widget class="QLabel" name="label_10">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>321</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Introduire l'identifiant de donateur a supprimer : </string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le_id_sup_2">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>40</y>
+         <width>113</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="button_sup">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>10</y>
+         <width>121</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color: #fff;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Supprimer</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="page">
+     <widget class="QFrame" name="side_bar_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>50</y>
+        <width>241</width>
+        <height>621</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame {
+   background-color:#003e46;
+   font-size: 14px;
+   padding: 20px;
+   border-radius: 1
+0px;
+ 
+}
+
+QFrame QListWidget {
+   background-color: transparent;
+   color: #333;
+   font-size: 14px;
+   padding: 20px;
+}
+
+QFrame QListWidget::item {
+   padding: 10px;
+   border-bottom: 1px solid #ddd;
+}
+
+QFrame QListWidget::item:selected {
+   background-color: #007aff;
+   color: #fff;
+}
+
+QFrame QListWidget::item:hover {
+   background-color: #ddd;
+}
+
+QFrame QLabel {
+   font-size: 18px;
+   font-weight: bold;
+   color: #333;
+   margin-bottom: 20px;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QPushButton" name="button_side_ajouter_3">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>181</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color: #fff;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+       </property>
+       <property name="text">
+        <string>Ajouter donateur</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/add.png</normaloff>icons/add.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="button_side_lire_4">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>70</y>
+         <width>181</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color: #fff;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Lire liste donateur</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/icons8-read-80.png</normaloff>icons/icons8-read-80.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="button_side_supp_3">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>120</y>
+         <width>181</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color: #fff;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Supprimer donateur</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/icons8-available-updates-40.png</normaloff>icons/icons8-available-updates-40.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_86">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>170</y>
+         <width>181</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color:#fff;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}
+
+QPushButton::pressed
+{
+	background-color: #FF0000;
+
+}</string>
+       </property>
+       <property name="text">
+        <string>Update donateur</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>icons/icons8-remove-64.png</normaloff>icons/icons8-remove-64.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_87">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>240</y>
+         <width>71</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color: #32767e;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+border : 3px solid white
+ ; 
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Downloads/sort.svg</normaloff>../Downloads/sort.svg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>25</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_88">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>240</y>
+         <width>71</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color: #32767e;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+border : 3px solid white; 
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Downloads/history.png</normaloff>../Downloads/history.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>500</width>
+         <height>500</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_89">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>330</y>
+         <width>71</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color: #32767e;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+border : 3px solid white ; 
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Downloads/location.png</normaloff>../Downloads/location.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>50</width>
+         <height>100</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_90">
+       <property name="geometry">
+        <rect>
+         <x>110</x>
+         <y>330</y>
+         <width>71</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color:#32767e;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+border : 3px solid white ; 
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>../Downloads/pdf.svg</normaloff>../Downloads/pdf.svg</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>25</width>
+         <height>70</height>
+        </size>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="upper_bar_3">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1401</width>
+        <height>48</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QFrame {
+  
+   border: 3px solid white
+ ;
+}</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_7">
+       <item>
+        <widget class="QPushButton" name="button_g_emp_3">
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color: #19666f ;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+         </property>
+         <property name="text">
+          <string>Gestion Employe</string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/users.svg</normaloff>:/ico/icons/users.svg</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="button_g_donataire_3">
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color: #19666f;
+	color: #fff;
+    font:&quot;Arial&quot;;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+         </property>
+         <property name="text">
+          <string>Gestion donataire </string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/truck.svg</normaloff>:/ico/icons/truck.svg</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="button_home_3">
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color: #19666f;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+         </property>
+         <property name="text">
+          <string>Home</string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/home.svg</normaloff>:/ico/icons/home.svg</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="button_g_benevole_3">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color: #19666f;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+         </property>
+         <property name="text">
+          <string>Gestion benevole </string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/heart.svg</normaloff>:/ico/icons/heart.svg</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="button_g_donateur_3">
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color: #19666f;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+         </property>
+         <property name="text">
+          <string>Gestion donateur</string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/activity.svg</normaloff>:/ico/icons/activity.svg</iconset>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="button_g_stock_3">
+         <property name="styleSheet">
+          <string notr="true">QPushButton
+{
+	background-color: #19666f;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	border: none;
+	border-radius: 25px;
+	padding: 5px;
+
+}
+
+
+QPushButton::disabled
+{
+	background-color: #5c5c5c;
+
+}
+
+
+QPushButton::pressed
+{
+	background-color: #EF829B;
+
+}
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+         </property>
+         <property name="text">
+          <string>Gestion stock</string>
+         </property>
+         <property name="icon">
+          <iconset resource="res.qrc">
+           <normaloff>:/ico/icons/archive.svg</normaloff>:/ico/icons/archive.svg</iconset>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="geometry">
+       <rect>
+        <x>1040</x>
+        <y>70</y>
+        <width>321</width>
+        <height>551</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"> QWidget {
+    background-color: #003e46;
+    color: white;
+    font-family: Arial;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+QLineEdit, QTextEdit {
+    background-color: #19666f;
+    border-radius: 4px;
+    padding: 4px;
+    color: white;
+}
+
+QLineEdit:focus, QTextEdit:focus {
+    border: 2px solid #d35400;
+}
+
+QLabel {
+    color: white;
+}
+
+QPushButton {
+    background-color: #d35400;
+    color: white;
+    border-radius: 4px;
+    padding: 6px;
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #e67e22;
+}
+
+QComboBox {
+    background-color: #19666f;
+    border-radius: 4px;
+    padding: 4px;
+    color: white;
+}
+
+QComboBox::drop-down {
+    width: 20px;
+}
+
+QComboBox::down-arrow {
+    image: url(:/icons/dark/arrow_down.png);
+    width: 16px;
+    height: 16px;
+}
+
+QComboBox::down-arrow:on {
+    transform: rotate(180deg);
+}</string>
+      </property>
+      <widget class="QLabel" name="label_9">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>330</y>
+         <width>121</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+  color: #fff;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Type donateur</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_14">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>380</y>
+         <width>121</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+  color: #fff;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>nombre de don</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le_nom_modif">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>80</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le_prenom_modif">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>130</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le_addresse_modif">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>180</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le_numtel_modif">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>230</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le_mail_modif">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>280</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_15">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>430</y>
+         <width>101</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+  color: #fff;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Quantite </string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le_quantite_modif">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>430</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le_nb_don_modif">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>380</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="button_add_2">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>480</y>
+         <width>131</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+   background-color: #fff;
+   border: none;
+   color: #333;
+   padding: 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 14px;
+   margin: 4px 2px;
+   cursor: pointer;
+   border-radius: 16px;
+
+}
+
+QPushButton:hover {
+   background-color: #EF829B;
+}</string>
+       </property>
+       <property name="text">
+        <string>Modifier</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_17">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>80</y>
+         <width>71</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+  color: #fff;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Nom</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_18">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>130</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+  color: #fff;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Prenom</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_19">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>170</y>
+         <width>91</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+  color: #fff;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Addresse</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_20">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>230</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+  color: #fff;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Num tel</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_21">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>280</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+  color: #fff;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Email</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le_type_d_modif">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>330</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_16">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>20</y>
+         <width>91</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLabel {
+  color: #fff;
+}
+</string>
+       </property>
+       <property name="text">
+        <string>Identifiant </string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="le_id_modif">
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>30</y>
+         <width>181</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QTableView" name="table_D_3">
+      <property name="geometry">
+       <rect>
+        <x>290</x>
+        <y>130</y>
+        <width>721</width>
+        <height>431</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QTableView {
+  background-color: #19666f;
+  color: white;
+  border: 1px solid #19666f;
+  border-radius: 10px;
+}
+
+QTableView::item {
+  padding: 4px;
+  border: none;
+}
+
+QTableView::item:selected {
+  background-color: #EF829B;
+  color: white;
+}
+
+QHeaderView::section {
+  background-color: #003e46;
+  color: white;
+  padding: 4px;
+  border: none;
+}</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1381</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menufile">
+    <property name="title">
+     <string>heartShare </string>
+    </property>
+    <addaction name="actiongestion_donateur"/>
+    <addaction name="separator"/>
+    <addaction name="actiongestion_stock"/>
+    <addaction name="separator"/>
+    <addaction name="actiongestion_donataire"/>
+   </widget>
+   <addaction name="menufile"/>
+  </widget>
+  <action name="actiongestion_donateur">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/ico/icons/airplay.svg</normaloff>:/ico/icons/airplay.svg</iconset>
+   </property>
+   <property name="text">
+    <string>new</string>
+   </property>
+  </action>
+  <action name="actiongestion_stock">
+   <property name="text">
+    <string>quitter </string>
+   </property>
+  </action>
+  <action name="actiongestion_donataire">
+   <property name="text">
+    <string>save</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
